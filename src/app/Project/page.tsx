@@ -39,9 +39,9 @@ const Project = () => {
             <h3 className="mb-3 text-teal-400 text-xl">{project.title}</h3>
             <p className="mb-4 text-gray-400">{project.description}</p>
             <Link href={project.link} passHref>
-              <a className="bg-teal-400 text-white py-2 px-4 rounded transition-colors duration-300 hover:bg-teal-600">
+              <div className="bg-teal-400 text-white py-2 px-4 rounded transition-colors duration-300 hover:bg-teal-600">
                 View Project
-              </a>
+              </div>
             </Link>
           </div>
         ))}
